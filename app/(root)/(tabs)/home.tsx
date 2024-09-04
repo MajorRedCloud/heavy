@@ -107,7 +107,7 @@ const mockData : DataType[] = [
 const home = () => {
   return (
     <SafeAreaView className='flex flex-1 bg-zinc-900'>
-      <Header />
+      <Header type='home' />
       <View className='flex flex-1 mt-5'>
       <FlashList
         data={mockData}

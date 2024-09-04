@@ -20,3 +20,9 @@ type WorkoutType = {
 type WorkoutCardType = {
     item: DataType
 }
+
+type Exercise = {
+    name: string;
+    category: string;
+    muscleGroup: string;
+  };
